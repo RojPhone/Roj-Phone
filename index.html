@@ -7,84 +7,91 @@
 <title>Roj Phone – Handy An & Verkauf</title>
 
 <style>
-
 body{
-font-family: Arial;
-margin:0;
-background: linear-gradient(180deg,#ffcc33,#ff9933);
+    font-family: Arial;
+    margin:0;
+    background: linear-gradient(180deg,#ffcc33,#ff9933);
 }
 
 header{
-text-align:center;
-padding:50px;
-color:white;
+    display:flex; 
+    align-items:center; 
+    justify-content:center; 
+    gap:20px; 
+    padding:50px; 
+    color:white;
+}
+
+header img{
+    width:80px;
+    height:80px;
+    border-radius:15px;
 }
 
 header h1{
-font-size:50px;
-margin:0;
+    margin:0; 
+    font-size:50px;
 }
 
 nav{
-background:#222;
-padding:15px;
-text-align:center;
+    background:#222;
+    padding:15px;
+    text-align:center;
 }
 
 nav a{
-color:white;
-margin:20px;
-text-decoration:none;
-font-weight:bold;
-font-size:18px;
+    color:white;
+    margin:20px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:18px;
 }
 
 section{
-max-width:1000px;
-margin:auto;
-background:white;
-margin-top:30px;
-padding:40px;
-border-radius:15px;
-box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    margin-top:30px;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
 h2{
-color:#ff7b00;
+    color:#ff7b00;
 }
 
 ul{
-font-size:18px;
-line-height:2;
+    font-size:18px;
+    line-height:2;
 }
 
 .contact{
-font-size:18px;
-line-height:1.8;
+    font-size:18px;
+    line-height:1.8;
 }
 
 button{
-background:#ff7b00;
-color:white;
-border:none;
-padding:15px 25px;
-font-size:18px;
-border-radius:10px;
-cursor:pointer;
+    background:#ff7b00;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
 }
 
 button:hover{
-background:#ff5500;
+    background:#ff5500;
 }
 
 footer{
-margin-top:40px;
-text-align:center;
-background:#222;
-color:white;
-padding:20px;
+    margin-top:40px;
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:20px;
 }
-
 </style>
 
 </head>
@@ -92,93 +99,73 @@ padding:20px;
 <body>
 
 <header>
-
-<h1>☀️ Roj Phone</h1>
-<p>Handy Ankauf • Verkauf • Zubehör • SIM Karten • Getränke</p>
-
+    <img src="logo.png" alt="Roj Phone Logo">
+    <div>
+        <h1>☀️ Roj Phone</h1>
+        <p>Handy Ankauf • Verkauf • Zubehör • SIM Karten • Getränke</p>
+    </div>
 </header>
 
 <nav>
-
-<a href="#about">Über uns</a>
-<a href="#services">Services</a>
-<a href="#contact">Kontakt</a>
-
+    <a href="#about">Über uns</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Kontakt</a>
 </nav>
 
 <section id="about">
-
-<h2>Über Roj Phone</h2>
-
-<p>
-Willkommen bei <b>Roj Phone</b> in Essen.
-Wir kaufen und verkaufen Smartphones und bieten Zubehör,
-SIM-Karten sowie Guthaben Aufladung an.
-</p>
-
-<p>
-Bei uns können Sie außerdem Kaffee und Getränke genießen,
-während Sie Ihr Handy kaufen oder verkaufen.
-</p>
-
+    <h2>Über Roj Phone</h2>
+    <p>
+        Willkommen bei <b>Roj Phone</b> in Essen.<br>
+        Wir kaufen und verkaufen Smartphones, bieten Zubehör, SIM-Karten und Guthaben-Aufladung an.
+    </p>
+    <p>
+        Bei uns können Sie außerdem Kaffee und Getränke genießen, während Sie Ihr Handy kaufen oder verkaufen.
+    </p>
 </section>
 
 <section id="services">
+    <h2>📱 Handy Services</h2>
+    <ul>
+        <li>📱 Ankauf von Smartphones</li>
+        <li>💰 Verkauf von neuen & gebrauchten Handys</li>
+        <li>🎧 Handy Zubehör (Hüllen, Kabel, Ladegeräte, Kopfhörer)</li>
+        <li>📶 Verkauf von SIM-Karten</li>
+        <li>💳 Guthaben / Prepaid Aufladung</li>
+        <li>🔄 Geräte Tausch</li>
+        <li>🔧 Beratung rund ums Smartphone</li>
+    </ul>
 
-<h2>📱 Handy Services</h2>
-
-<ul>
-<li>📱 Ankauf von Smartphones</li>
-<li>💰 Verkauf von neuen & gebrauchten Handys</li>
-<li>🎧 Handy Zubehör (Hüllen, Kabel, Ladegeräte, Kopfhörer)</li>
-<li>📶 Verkauf von SIM-Karten</li>
-<li>💳 Guthaben / Prepaid Aufladung</li>
-<li>🔄 Geräte Tausch</li>
-<li>🔧 Beratung rund ums Smartphone</li>
-</ul>
-
-<h2>☕ Getränke & Kaffee</h2>
-
-<ul>
-<li>☕ Frischer Kaffee</li>
-<li>🥤 Softdrinks</li>
-<li>🍺 Alkoholische Getränke</li>
-<li>🥤 Kalte Getränke</li>
-</ul>
-
+    <h2>☕ Getränke & Kaffee</h2>
+    <ul>
+        <li>☕ Frischer Kaffee</li>
+        <li>🥤 Softdrinks</li>
+        <li>🍺 Alkoholische Getränke</li>
+        <li>🥤 Kalte Getränke</li>
+    </ul>
 </section>
 
 <section id="contact">
+    <h2>📍 Kontakt</h2>
+    <div class="contact">
+        Adresse:<br>
+        Krayer Str. 6<br>
+        45276 Essen<br><br>
 
-<h2>📍 Kontakt</h2>
+        Telefon:<br>
+        0201 84328076<br><br>
 
-<div class="contact">
-
-Adresse:<br>
-Krayer Str. 6<br>
-45276 Essen<br><br>
-
-Telefon:<br>
-0201 84328076<br><br>
-
-Öffnungszeiten:<br>
-Täglich geöffnet<br>
-Bis 21:00 Uhr
-
-</div>
-
-<br>
-
-<a href="tel:020184328076">
-<button>📞 Jetzt anrufen</button>
-</a>
-
+        Öffnungszeiten:<br>
+        Täglich geöffnet<br>
+        Bis 21:00 Uhr
+    </div>
+    <br>
+    <a href="tel:020184328076">
+        <button>📞 Jetzt anrufen</button>
+    </a>
 </section>
 
 <footer>
-
-© 2026 Roj Phone – Essen
-
+    © 2026 Roj Phone – Essen
 </footer>
 
 </body>
